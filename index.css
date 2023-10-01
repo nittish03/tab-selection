@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(17, 33, 46);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+h2 {
+  pointer-events: none;
+}
+
+input {
+  appearance: none;
+  height: 35px;
+  width: 150px;
+  border-radius: 30px;
+  transition: 1s;
+}
+input:checked {
+  background-color: aqua;
+  transition: 1s;
+}
+.tabcontainer {
+  height: 40px;
+  width: 500px;
+  background-color: white;
+  position: absolute;
+  top: 40%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tab {
+  position: relative;
+  top: 1px;
+}
+.tabscontainer {
+  height: 40px;
+  width: 500px;
+  color: black;
+  position: absolute;
+  top: 40%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  pointer-events: none;
+}
+.tabs {
+  margin: 50px;
+}
